@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AID Inmobiliaría</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Logo AID Inmobiliaría" class="logo">
+        <h1>ID</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#properties">Propiedades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="properties">
+            <div class="properties-slider">
+                <!-- Aquí se cargarán las propiedades -->
+                <button id="prev-btn" class="slider-button">❮</button>
+                 <div class="slider-container">
+                    <img src="images/property1.jpg" alt="Propiedad 1">
+                    <img src="images/property2.jpg" alt="Propiedad 2">
+                    <img src="images/property3.jpg" alt="Propiedad 3">
+                </div>
+                <button id="next-btn" class="slider-button">❯</button>
+            </div>
+        </section>
+    <div id="app"></div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
